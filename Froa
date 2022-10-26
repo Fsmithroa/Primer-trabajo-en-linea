@@ -1,0 +1,51 @@
+<html>
+
+<head>
+
+<title> operaciones Numeros Enteros </title> </head>
+
+<body> <body bgcolor="#999999">
+
+<script type="text/javascript"> function validanum (res)
+
+{
+
+botones (document. all)? res.keycode: res.which; =
+
+if (botones==8)
+
+{
+
+return true;
+
+}
+
+secuencia Ad/;
+
+resul String.fromCharCode(botones); return secuencia.test(resul);
+
+function opera()
+
+{
+
+var N1=parseInt (document.getElementById('N1').value); var N2=parseInt (document.getElementById('N2').value);
+
+var Resta N1 - N2;
+
+var Suma N1 + N2;
+
+var Multi N1 N2; var Division = N1 N2;
+
+alert("la resta es: + Resta);
+
+alert("la suma es : + Suma); alert("la divicion es:
+
++ Division); alert("la multiplicacion es : + Multi);
+
+} </script>
+
+<h3>Operaciones Numeros Enteros </h3>
+
+<form> ingrese el primer numero: <input type="text" id="N1" onkeypress="return validanum (event);"/> <p> ingrese el segundo numero <input type="text" id="NZ" onkeypress="return validaNum (event);"/><br> <br><p> <input type="button" value="calcular" onclick="opera"> </center>
+
+</body> </html>
